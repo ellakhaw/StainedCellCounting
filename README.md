@@ -43,8 +43,10 @@ This is the main file for our project that users will interact with to count the
 
 ## **CellCount.m**
 Inputs: the variables I,fudgeFactor,se90l,se0l
+
 Outputs: the variables Ifinal,total
 
 ## **IDisplay.m**
 Inputs: the variables I,Ifinal,total
+
 Outputs: subplot of 2 images, the first one being the original image provided by the user, and the second image being an overlay of the edge detected and cleaned image over the original. The title of the second image also contains the number of cells counted.
